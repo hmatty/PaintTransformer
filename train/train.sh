@@ -14,4 +14,5 @@ python train.py \
 --save_epoch_freq 20 \
 --num_blocks 8 \
 --num_threads 12 \
---used_strokes 16
+--used_strokes 16 \
+--checkpoints_dir /content/drive/checkpoints
