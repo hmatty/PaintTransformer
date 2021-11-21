@@ -11,4 +11,7 @@ python train.py \
 --n_epochs 200 \
 --n_epochs_decay 20 \
 --max_dataset_size 16384 \
---save_epoch_freq 20
+--save_epoch_freq 20 \
+--num_blocks 8 \
+--num_threads 12 \
+--used_strokes 16
